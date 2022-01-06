@@ -6,6 +6,32 @@
 
 body {	
 	
-	background-color: #0F1011
+	background-color: #0F1011;
+}
 
+
+
+
+
+
+
+#intro img {
+	width:300px;
+	border-radius: 30px;
+	bottom-margin: 10px;
+	left-margin: 100px;
+}
+
+#intro h2 {
+	font-family: montserrat;
+	color: #BCB3A9;
+	font-size: 32px;
+	
+}
+
+#subtext_intro {
+	color: #797570 ;
+	font-size: 20px;
+	font-weight: lighter;
+	opacity: 0.8;
 }
