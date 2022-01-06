@@ -16,10 +16,9 @@ body {
 
 
 #intro img {
-	width:300px;
-	border-radius: 30px;
-	bottom-margin: 10px;
-	left-margin: 100px;
+	width:320px;
+	border-radius: 15px;
+
 }
 
 #intro h2 {
@@ -35,3 +34,36 @@ body {
 	font-weight: lighter;
 	opacity: 0.8;
 }
+
+#socials {
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+	list-style: none;
+}
+
+#socials a {
+	color: white;
+}
+
+#socials a:hover {
+	color: #BCB3A9;
+
+}
+
+.button {
+	color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: normal;
+  background: #4193BF;
+  text-decoration: none;
+  font-family: open sans;
+
+}
+
+.button:hover {
+	background: #316F8E;
+}
+
+
