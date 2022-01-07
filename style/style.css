@@ -1,7 +1,7 @@
 /* imported components */
 @import url("components/button.css");
 @import url("components/navbar.css");
-
+@import url("components/social-list.css");
 
 
 
@@ -20,6 +20,10 @@ body {
 	width:320px;
 	border-radius: 15px;
 
+}
+
+#intro img:hover {
+	opacity: 0.8;
 }
 
 #intro h2 {
@@ -41,7 +45,8 @@ body {
 	font-size: 30px;
 	color: white;
 	list-style: none;
-	display: inline;
+	padding:  10px 15px;
+	
 }
 
 #socials a {
@@ -54,7 +59,7 @@ body {
 }
 
 #social li {
-	displ
+	margin: 5px;
 }
 
 

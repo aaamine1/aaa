@@ -1,6 +1,6 @@
 ul.nav {
   padding-left: 0px;
-  background-color: #3D99CE;
+  background-color: #4193BF;
   text-align: center;
 }
 ul.nav > li {
@@ -8,9 +8,11 @@ ul.nav > li {
   padding: 10px 20px;
 }
 ul.nav > li:hover {
-  background-color: #2779BF;
+  background-color: #316F8E;
 }
 ul.nav > li > a {
   color: white;
   text-decoration: none;
+   font-family: open sans;
+
 }
