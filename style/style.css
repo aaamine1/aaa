@@ -1,5 +1,6 @@
-
-
+/* imported components */
+@import url("components/button.css");
+@import url("components/navbar.css");
 
 
 
@@ -40,6 +41,7 @@ body {
 	font-size: 30px;
 	color: white;
 	list-style: none;
+	display: inline;
 }
 
 #socials a {
@@ -51,19 +53,10 @@ body {
 
 }
 
-.button {
-	color: white;
-  padding: 10px 15px;
-  border-radius: 4px;
-  font-weight: normal;
-  background: #4193BF;
-  text-decoration: none;
-  font-family: open sans;
-
+#social li {
+	displ
 }
 
-.button:hover {
-	background: #316F8E;
-}
+
 
 
