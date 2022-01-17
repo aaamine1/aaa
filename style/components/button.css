@@ -1,14 +1,17 @@
 .button {
-	color: white;
+	color: #EAEBEA;
   padding: 10px 15px;
   border-radius: 4px;
   font-weight: normal;
-  background: #4193BF;
+  background: #A04331;
   text-decoration: none;
   font-family: open sans;
 
 }
 
 .button:hover {
-	background: #316F8E;
+	background: #7C362A;
+    text-decoration: none;
+    color: white;
 }
+

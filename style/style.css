@@ -1,24 +1,55 @@
 /* imported components */
 @import url("components/button.css");
-@import url("components/navbar.css");
+
 @import url("components/social-list.css");
 
 
 
 body {	
 	
-	background-color: #0F1011;
+	background-color: #EAEBEA;
+	
 }
 
 
 
 
 
+#intro {
+	margin-left: 20px;
+	margin-top: 30px;
+	display: flex;	
+	align-content: center;
+	position: relative;
 
+}
 
+#intro p {
+	font-size: 26px;
+	color: #3F3A3A;
+	opacity: 0.97;
+	font-family: inter;
+}
+#head_photo{
+	border-radius: 30px;
+	width: 300px;
+	position: absolute;
+	left: 250px;
+	box-shadow: 3px 3px 3px #CCCCCC;
+
+}
+#text_1 {
+	position: absolute;
+	left: 575px;
+} 
+
+}	
 #intro img {
-	width:320px;
-	border-radius: 15px;
+	width:1px;
+	border-radius: 15px 50px 30px 5px;
+	
+	position: absolute;
+	left: 250px;
 
 }
 
@@ -27,41 +58,70 @@ body {
 }
 
 #intro h2 {
-	font-family: montserrat;
-	color: #BCB3A9;
-	font-size: 32px;
+	font-family: inter;
+	color: #3F3A3A;
+	font-size: 40px;
+	font-weight: bold;
 	
 }
 
 #subtext_intro {
-	color: #797570 ;
+	color: #3F3A3A ;
 	font-size: 20px;
 	font-weight: lighter;
 	opacity: 0.8;
+	font-family: montserrat;
 }
 
 #socials {
 	text-decoration: none;
 	font-size: 30px;
-	color: white;
+	color: #0F1011;
 	list-style: none;
-	padding:  10px 15px;
+	padding:  10px 15px 50px 10px;
+	position: absolute;
+	top: 335px;
+	left: 585px;
+
+	
+	
 	
 }
 
 #socials a {
-	color: white;
+	color: #3F3A3A;
+	text-decoration: none;
 }
 
 #socials a:hover {
 	color: #BCB3A9;
+	text-decoration: none;
 
 }
 
-#social li {
-	margin: 5px;
+
+#hire_me {
+	position: absolute;
+	top: 425px;
+	left: 370px;
 }
 
+#links {
+	display: flex;
+	align-items: center;
+}
 
+.navbar-expand-md  {
+	display: flex;
+}
 
+nav {
+	font-size: 25px;
+	color: #3F3A3A;
+}
 
+#finger {
+	position: absolute;
+	top: 450px;
+	left: 408px;
+}
