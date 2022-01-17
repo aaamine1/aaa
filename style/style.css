@@ -1,6 +1,6 @@
 /* imported components */
 @import url("components/button.css");
-
+@import url("components/card.css");
 @import url("components/social-list.css");
 
 
@@ -8,7 +8,8 @@
 body {	
 	
 	background-color: #EAEBEA;
-	
+	padding-bottom: 300px;
+	  min-height:1200px;
 }
 
 
@@ -49,7 +50,7 @@ body {
 	border-radius: 15px 50px 30px 5px;
 	
 	position: absolute;
-	left: 250px;
+	left: 220px;
 
 }
 
@@ -80,7 +81,7 @@ body {
 	list-style: none;
 	padding:  10px 15px 50px 10px;
 	position: absolute;
-	top: 335px;
+	top: 350px;
 	left: 585px;
 
 	
@@ -113,6 +114,7 @@ body {
 
 .navbar-expand-md  {
 	display: flex;
+
 }
 
 nav {
@@ -125,3 +127,4 @@ nav {
 	top: 450px;
 	left: 408px;
 }
+
